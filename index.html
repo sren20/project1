@@ -5,194 +5,338 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-       <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <heading>
-      <nav>
-        <ul>
-          <li id="icon"><img src="assets/Supreme Library.png" alt="icon"></li>
-          <li><a href="#missionpage">Mission</a></li>
-          <li><a href="#discoverpage">Discover</li></a>
-          <li><a href="#pricingpage">Pricing</li></a>
-          <li><a href="#loginpage">Login</li></a>
-          <li><a href="#trialpage"><button>Start free Trial</button></a></li>
-        </ul>
-      </nav>
-    </heading>
-<br>
-    <h1>Explore the world of Books</h1>
-    <p>
-      With Supreme online library of books, academic texts and tools, trusted by
-      students worldwide
-    </p>
 
-    <form action="">
-      <input
-        type="text"
-        name="search-box"
-        id="search-box"
-        placeholder="Search our collection of over 1,000,000 academic & non-fiction titles"
-        size="70"
-      />
-    </form>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/Supreme Library.png" alt="icon" />
+      </div>
+      <div class="navigation">
+        <ul>
+          <li><a href="#missionpage">Mission</a></li>
+          <li><a href="#discoverpage">Discover</a></li>
+          <li><a href="#pricingpage">Pricing</a></li>
+          <li><a href="#loginpage">Login</a></li>
+          <li>
+            <a href="#trialpage"><button>Start free Trial</button></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <br />
+    <h1>Explore the world of Books</h1>
+
+    <p class="title_caption">
+      <span id="content1">
+        With Supreme online library of books, academic texts</span
+      >
+      <span id="content2"> and tools, trusted by students worldwide </span>
+    </p>
+    <div class="form">
+      <form action="https://google.com/search" method="get" class="search-bar">
+        <!-- <button type="submit"><img src="assets/icons8-search-64.png"></button> -->
+        <input
+          type="text"
+          name="search-box"
+          id="search-box"
+          placeholder="Search our collection of over 1,000,000 academic & non-fiction titles"
+          size="70"
+          name="q"
+        />
+      </form>
+    </div>
 
     <!-- First row of books -->
-  
-     
-      <!-- <div class="wrapper"></div>
-      <div> -->
-        <h2>Trending Books</h2>
-        <section id="container">
-        <div>
-          <img src="assets/book_1.jpeg" alt="book 1"> 
-      <button>Borrow</button>
-    </div>
-    <div>
-      <img src="assets/book_2.jpeg" alt="book 2">
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
-        </section>
+    <h2>Trending Books</h2>
+    <section id="container">
+      <div>
+        <img src="assets/book_cover/book_1.jpeg" alt="book 1" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/book_2.jpeg" alt="book 2" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/book_3.jpeg" alt="book 3" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/book_4.jpeg" alt="book 4" />
+        <button>Borrow</button>
+      </div>
+    </section>
 
     <!-- Second Row of books -->
-   
-          <h2>Romance</h2>
-          <section id="container">
+    <h2>Romance</h2>
+    <section id="container">
       <div>
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
+        <img src="assets/book_cover/romanceBK_1.png" alt="book 1" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/romanceBK_2.jpg" alt="book 2" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/romanceBK_3.jpeg" alt="book 3" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/romanceBK_4.jpeg" alt="book 4" />
+        <button>Borrow</button>
+      </div>
     </section>
 
     <!-- Fourth Row of books -->
-    
+
     <h2>Thrillers</h2>
     <section id="container">
-    <div>
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
+      <div>
+        <img src="assets/book_cover/thriller_book1.jpg" alt="book 1" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/thriller_book2.jpeg" alt="book 2" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/thriller_book3.jpeg" alt="book 3" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/thriller_book4.jpg" alt="book 4" />
+        <button>Borrow</button>
+      </div>
     </section>
 
     <!-- Fifth Row of Books -->
 
-      <h2>Kids</h2>
-      <section id="container">
+    <h2>Kids</h2>
+    <section id="container">
       <div>
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
-    <div>
-      <button>Borrow</button>
-    </div>
-     </section>
+        <img src="assets/book_cover/children_book1.jpeg" alt="book 1" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/children_book2.jpeg" alt="book 2" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/children_book3.jpg" alt="book 3" />
+        <button>Borrow</button>
+      </div>
+      <div>
+        <img src="assets/book_cover/children_book4.jpeg" alt="book 4" />
+        <button>Borrow</button>
+      </div>
+    </section>
 
-        Read your textbooks & find supporting sources
+    <h2 class="no_text_underline">
+      Read your textbooks & find supporting sources
+    </h2>
+
     <!-- 4 book covers here -->
 
-    <p>DISCOVER</p>
-    <p>Go beyond your reading list</p>
+    <div class="box_textBooks">
+      <div class="box_textBooks_cover">
+        <img src="assets/text_books/textbook_1.jpg" alt="text book 1" />
+      </div>
+      <div class="box_textBooks_cover">
+        <img src="assets/text_books/textbook_2.jpg" alt="text book 1" />
+      </div>
+      <div class="box_textBooks_cover">
+        <img src="assets/text_books/textbook_3.jpg" alt="text book 1" />
+      </div>
+      <div class="box_textBooks_cover">
+        <img src="assets/text_books/textbook_4.jpg" alt="text book 1" />
+      </div>
+    </div>
+
+    <h2 class="uppercase no_text_underline">DISCOVER</h2>
+    <p><span class="beyond_bold">Go beyond your reading list</span></p>
     <p>with a variety of 950+ topics & subtopic to explore</p>
-    <p>View all topics</p>
+    <p class="blue_text">View all topics</p>
 
     <!-- 3x3 text boxes - NOT FORMS -->
+    <div class="white_category_boxes">
+      <div class="white_category_boxes_item">
+        Education
+        <p>19,301 books</p>
+      </div>
+      <div class="white_category_boxes_item">
+        Art
+        <p>200 books</p>
+      </div>
+      <div class="white_category_boxes_item">
+        Design
+        <p>800 books</p>
+      </div>
+    </div>
 
-    <p>TRY IT NOW</p>
-    <h1>Start Reading for free</h1>
-    Cancel anytime. We'll remind you befoew you pay anything.
+    <div class="white_category_boxes">
+      <div class="white_category_boxes_item">
+        Economics
+        <p>5,301 books</p>
+      </div>
+      <div class="white_category_boxes_item">
+        Computer
+        <p>650 books</p>
+      </div>
+      <div class="white_category_boxes_item">
+        Science
+        <p>1,098 Books</p>
+      </div>
+    </div>
+
+    <div class="white_category_boxes">
+      <div class="white_category_boxes_item">
+        History
+        <p>950 books</p>
+      </div>
+      <div class="white_category_boxes_item">
+        Business
+        <p>9,504 books</p>
+      </div>
+      <div class="white_category_boxes_item">
+        Archictecture
+        <p>798 books</p>
+      </div>
+    </div>
+
+    <p class="uppercase no_text_underline try_now">Try it now</p>
+    <p class="beyond_bold center_me">Start Reading for free</p>
+    <p class="fine_print">
+      Cancel anytime. We'll remind you before you pay anything.
+    </p>
 
     <!-- two text boxes here with a Start free Trial button -->
-    <button>Start free trial</button>
-    
-      <p>
-        After your free trial, you'll auto-enroll in your selected plan. Change
-        or cancel anytime during your trial to not be charged.
-      </p>
+    <div class="white_monthly_boxes">
+      <div class="white_monthly_boxes_item">
+        <p class="uppercase">Monthly</p>
+        <p><span class="price">$10</span>USD</p>
+        <p class="fine_print">per month</p>
+        <p>Billed monthly, cancel anytime</p>
+        <button>Start free trial</button>
+      </div>
+      <div class="white_monthly_boxes_item">
+        <p class="uppercase">Monthly</p>
+        <p><span class="price">$8</span>USD</p>
+        <p class="fine_print">per month</p>
+        <p>Billed annualy</p>
+        <button>Start free trial</button>
+      </div>
+    </div>
 
-      <table>
-      <h3>OUR COMMUNITY</h3>
-       
+    <h3>
+      <span id="content1"
+        >After your free trial, you'll auto-enroll in your selected plan.</span
+      >
+      <span id="content2">
+        Change or cancel anytime during your trial to not be charged.</span
+      >
+    </h3>
+
+    <h3 class="uppercase padding_before_community">Our Community</h3>
+
+    <h4>What people are saying about us</h4>
     <table>
-      <thead><h3>What people are saying about us</h3></thead>
-  
       <tr>
         <td>
           <p>"It's hard not to recommend Supreme"</p>
-          <p>Angel</p>
+          <p class="name_small_text">Angel</p>
         </td>
         <td>
           <p>"Superb!"</p>
-          <p>Akin Abel</p>
+          <p class="name_small_text">Akin Abel</p>
         </td>
         <td>
-      <p>"The customer service is great"</p>
-      <p>Akin Abel</p>
+          <p>"The customer service is great"</p>
+          <p class="name_small_text">Akin Abel</p>
         </td>
       </tr>
 
       <tr>
         <td>
           <p>"I just wanted to say Thank you"</p>
-          <p>Laura</p>
+          <p class="name_small_text">Laura</p>
         </td>
         <td>
           <p>"Best Library in DC"</p>
-          <p>Laura</p>
+          <p class="name_small_text">Laura</p>
         </td>
         <td>
-          <p>"Highly recommended for both studying and leisure reading</p>
-          <p>Karolis</p>
+          <p>"Highly recommended for both</p>
+          <p>studying and leisure reading!"</p>
+          <p class="name_small_text">Karolis</p>
         </td>
       </tr>
-</table>
-
+    </table>
 
     <footer>
+      <div class="nav_columns">
+        <ul class="row_list">
+          <h6>Supreme</h6>
+          <!-- <li>&nbsp;</li> -->
+          <li>Pricing</li>
+          <li>FAQs</li>
+          <li>Contact Us</li>
+          <li>Supreme for Instructors</li>
+          <li>Careers</li>
+        </ul>
 
-    <!-- top UPPERCAPS menu -->
-      <ul>
-        <li class="top_nav_uppercase">Supreme</li>
-        <li class="top_nav_uppercase">Browse</li>
-        <li class="top_nav_uppercase">Learn</li>
-      </ul>
+          <ul class="row_list">
+          <h6>Browse</h6>
+          <!-- <li>&nbsp;</li> -->
+          <li>Topics</li>
+          <li>Reading List</li>
+        </ul>
 
-      <ul class="row_list">
-        <li>Pricing</li>
-        <li>FAQs</li>
-        <li>Contact Us</li>
-        <li>Supreme for Instructors</li>
-        <li>Careers</li>
-      </ul>
+        <ul class="row_list">
+          <h6>Learn</h6>
+          <li>Archictecture</li>
+          <li>Art</li>
+          <li>Biological Sciences</li>
+          <li>Business</li>
+          <li>Computer Science</li>
+          <li>Design</li>
+        </ul>
+
+        <ul class="row_list">
+          <h6>&nbsp;</h6>
+          <li>Economics</li>
+          <li>Education</li>
+          <li>History</li>
+          <li>Languages</li>
+          <li>Law</li>
+          <li>Literature</li>
+        </ul>
+
+        <ul class="row_list">
+          <h6>&nbsp;</h6>
+          <li>Politics</li>
+          <li>Psychology</li>
+          <li>Technology</li>
+          <li>Engineering</li>
+          <li>Theology</li>
+        </ul>
+      </div>
+
+      <!-- Social icons  -->
+      <div class="social_icons">
+        <img src="assets/social_icons/new-Instagram-logo-white-glyph.png" />
+        <img src="assets/social_icons/twitter-256.png" />
+        <img src="assets/social_icons/linkedin-3-256.png" />
+        <img src="assets/social_icons/facebook-7-256.png" />
+      </div>
     </footer>
   </body>
 </html>
